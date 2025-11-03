@@ -1,1 +1,10 @@
-Write a program in Dart that finds simple interest. Formula= (p * t * r) / 100
+void main() {
+  var numbers = [1, 2, 3, 4];
+  var doubled = [];
+
+  for (var n in numbers) {
+    doubled.add(n * 2);
+  }
+
+  print(doubled);
+}
